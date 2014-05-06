@@ -1,0 +1,30 @@
+// factorial.cpp : Defines the entry point for the console application.
+// autor : Cristhian Rojas
+// fecha : 6/05/2014
+
+#include "stdafx.h"
+#include "math.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+void main ()
+
+{ int s=7,signo=1,exp,fact=1,i=1,x;
+Cout<<"Ingrese el valor de x";
+Cin>>x;
+cout<<"Ingrese el valor de n";
+cin>>n;
+while(i<=1)
+{signo=signo*-1;
+exp=powf(x,n);
+fact=fact*(i+1);
+s=s+(signo*(exp/fact));
+i++;
+}
+Cout<<s;
+}
+
+	getch ();
+}
+
