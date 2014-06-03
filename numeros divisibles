@@ -1,0 +1,25 @@
+#include "stdafx.h"
+#include <iostream>
+#include "math.h"
+#include "conio.h"
+
+using namespace std;
+void main()
+
+{
+int A,B,DIV;
+cout<<"NUMEROS DIVISIBLES \n\n";
+cout<<"INTRODUCE UN NUMERO ";
+cin>>A;
+cout<<"INTRODUCE UN NUMERO ";
+    cin>>B;
+cout<<"EL RESULTADO ES ";
+if((A%B==0)
+
+{
+   DIV=A/B;
+
+cout<<"EL RESULTADO FINAL ES"
+
+getch();
+}
